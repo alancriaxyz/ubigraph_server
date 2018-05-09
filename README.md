@@ -12,4 +12,10 @@ I was able to find the latest version (alpha-0.2.4, June 2008) and thought that 
 
 I hope ubietylab can look at this repository and keep contributing to this beautiful project.
 
+# Using
 
+```bash
+$ ./ubigraph_server
+```
+
+A black window will appear
