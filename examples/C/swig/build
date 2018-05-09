@@ -1,0 +1,4 @@
+gcc -c ubigraph_wrap.c -I/System/Library/Frameworks/Python.framework/Versions/2.3/include/python2.3 -I/System/Library/Frameworks/Python.framework/Versions/2.3/lib/python2.3/config
+cc -bundle -undefined suppress -flat_namespace ../client.o ubigraph_wrap.o -o _ubigraph.so -lcurl -lxmlrpc_client -lxmlrpc -lxmlrpc_util -lxmlrpc_xmlparse -lxmlrpc_xmltok
+
+

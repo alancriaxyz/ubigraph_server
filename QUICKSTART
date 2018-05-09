@@ -1,0 +1,11 @@
+Quick start:
+
+1. Start the server:
+
+bin/ubigraph_server &
+
+2. Run an example program:
+
+cd lang/Python
+python example.py
+

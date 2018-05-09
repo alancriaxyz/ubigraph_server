@@ -1,0 +1,55 @@
+Version alpha-0.2.4, 23 June 2008 (r1951)
+* Lots of performance improvements, and a new section in the user's guide
+  about performance tuning.
+* New edge attributes: arrow_position, arrow_length, arrow_radius, 
+  arrow_reverse
+* New edge stroke kind: "none", does not draw the edge, but still draws
+  decorations (i.e. arrowhead and label)
+* New examples: arrows.py, routing.py
+* Bug fix: vertex "visible" attribute not handled properly
+
+Version alpha-0.2.3, 29 May 2008
+* Better Python API: examples/Python/ubigraph_example.py
+* Reduced dependency on shared libraries
+
+Version alpha-0.2.2, 28 May 2008
+* XMLRPC callbacks on left double-click; see Python/callback.py
+  and Python/callback_webcrawler.py
+* New platforms supported: Mac OS X PowerPC, Ubuntu 6.06
+* arrowheads are back (will be more customizable in future)
+* New API methods: new_vertex_style_w_id(s,parent) and 
+  new_edge_style_w_id(s,parent)
+* Performance and numeric-stability improvements
+* Fullscreen mode (right-mouse button menu)
+* Autozoom (disable via right-mouse button menu if it annoys)
+* Toggle labels: right-mouse button menu, or press 'l' or 'L'
+* Added 'oriented' attribute for edges: see e.g. Python/tree.py
+* New example: Python/multiedge.py
+* Ruby interface (rubigraph) by mootoh
+* Higher rate of XMLRPC requests processed without reducing the framerate
+* Improved error reporting; use ubigraph_server -quiet to suppress warnings
+* Brought C API up to date
+* API now guarantees that generated id's are in the range 0x40000000-0x7fffffff.
+* Bug fix: jittery vertices caused by threading issues
+* Bug fix: colors with uppercase hex digits 
+* Bug fix: segfault due to non-threadsafe code on big graphs (#768202)
+* Bug fix: style changes that affect layout now exit idle mode
+
+Version alpha-0.2.1, 23 May 2008
+* Built-in colour palette
+* Automatic control of shapedetail to maintain frame rate
+* Vertices now have 'visible' attribute
+* Bug fix: jitter caused by bug in spline edges
+* Bug fix: spacetree bug that caused stack overflows in some 
+  circumstances (#768202)
+* Bug fix: going idle while zooming
+
+Version alpha-0.2, 22 May 2008
+* Performance improvements
+* Spline edges: set_edge_attribute(e, "spline", "true")
+* Edge strokes: set_edge_attribute(e, "stroke", "dotted"/"dashed"/"solid")
+* Higher rate of XMLRPC requests can be handled (i.e., graph can be
+  updated faster).
+* Bug fix (#104168,#270723,#356196): Edge labels, width work correctly
+* Bug fix (#270099): Edge id's were not released when vertices removed
+

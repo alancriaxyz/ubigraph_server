@@ -1,0 +1,42 @@
+Please read this software license agreement carefully before
+using the software.  By installing and using the software, you 
+are agreeing to be bound by the terms of this license.  If you do
+not agree to the terms of this license, do not use the software.
+Using any part of the software indicates that you accept these
+terms.
+
+Definitions
+
+"Software" refers to the Ubigraph server application, 
+and derivatives of it.
+"Copyright Holder" refers to the copyright holder of the Software.
+
+Permitted Uses and Restrictions
+
+If you obtained the Software from the Copyright Holder and as long as
+you comply with the terms of this agreement, you are granted a 
+non-transferable, non-exclusive license to install and use the software,
+and to copy the software for your own use.  You may not rent, lease,
+sell, sublicense, assign or transfer your rights in the Software.
+
+The Software and any copies you make of it are the intellectual
+property of the Copyright Holder.  This agreement does not grant you
+any intellectual property rights in the Software, and all rights
+not expressly granted are reserved by the Copyright Holder.
+
+You shall have no rights to the software other than this licence.
+In particular, you may not distribute this software to third parties,
+modify it, reverse engineer, decompile, or disassemble it.
+
+Disclaimer of Warranty on Software
+
+The software is provided AS IS.  The Copyright holder makes no
+express or implied warranties with respect to the software, including,
+without limitation, the implied warranties of merchantability or
+fitness for a particular purpose.
+
+In no event will the Copyright Holder be liable for any lost revenue,
+profit, or data, or for special, indirected, consequential, incidental,
+or punitive damages however caused, arising from the use of the
+software.
+

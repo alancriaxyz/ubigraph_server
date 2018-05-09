@@ -1,0 +1,5 @@
+Example.rb shows how to use the XMLRPC API directly from Ruby.
+
+rubigraph is a wrapper that provides a much nicer interface.
+It is written and maintained by mootoh.
+

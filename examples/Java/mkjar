@@ -1,0 +1,2 @@
+javac org/ubiety/ubigraph/UbigraphClient.java
+jar cvf ubigraph.jar org/ubiety/ubigraph/UbigraphClient.class
