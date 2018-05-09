@@ -6,10 +6,10 @@ Ubigraph is a different way to create interactive user interfaces with the purpo
 
 # Why does this repository exist?
 
-Ubigraph foi desenvolvido pela ubietylab, porém o projeto deixou de receber atualizações desde 2008. Também não é possível baixar a última versão pelo site oficial (http://ubietylab.net/ubigraph/content/Downloads/index.php).
+Ubigraph was developed by ubietylab, but the project has stopped receiving updates since 2008. Also it is not possible to download the latest version through the official website (http://ubietylab.net/ubigraph/content/Downloads/index.php).
 
-Eu consegui achar a última versão (alpha-0.2.4, June 2008) e pensei que disponibilizando aqui no github seria mais fáciil para que outros desenvolvedores pudessem usar essa ferramenta incrível. Além de usar penso que outros possam continuar a contribuir para a melhoria e quem saber trazer novas versões. 
+I was able to find the latest version (alpha-0.2.4, June 2008) and thought that making it available here in github would be easier for other developers to use this amazing tool. Besides using I think that others can continue to contribute to the improvement and those who know how to bring new versions.
 
-Espero que a ubietylab possa olhar esse repositório e que continue contribuindo com esse belo projeto.
+I hope ubietylab can look at this repository and keep contributing to this beautiful project.
 
 
