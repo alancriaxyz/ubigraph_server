@@ -15,7 +15,7 @@ I hope ubietylab can look at this repository and keep contributing to this beaut
 # Using
 
 ```bash
-$ ./ubigraph_server
+$ ./bin/ubigraph_server
 ```
 
 A black window will appear
